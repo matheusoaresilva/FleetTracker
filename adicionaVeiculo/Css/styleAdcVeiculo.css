@@ -1,0 +1,112 @@
+.logo {
+  width: 80px;  /* Altere o valor para o tamanho desejado */
+  height: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.Principal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.DivDoBotao {
+    align-items: center;
+    display: flex;
+}
+
+.Botao{
+		background-color: #66CAF2;
+    border-color: transparent;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+img{
+  padding: 1px 15px;
+  width: 50px;
+}  
+
+.input {
+    flex: 1;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+section{
+    margin: 2em 0;
+    overflow: hidden;
+}
+
+  
+table{
+	width: 100%;
+	margin-bottom : .5em;
+  table-layout: fixed;
+	border-collapse: collapse;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+td, th {
+	padding: .4em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+}
+
+label{
+	color: #2C3673;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #2C3673;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.container-form{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 35px 25px 25px 25px;
+	border-radius: 10px;
+}
+
+.excluir{
+	margin-top: 30px;
+}

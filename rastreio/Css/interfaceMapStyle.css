@@ -1,0 +1,153 @@
+.logo {
+  width: 50px;  /* Altere o valor para o tamanho desejado */
+  height: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.containerR {
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100vh;
+  float: left;
+}
+
+#map {
+  float: right;
+  height: 100vh;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  outline: none;
+  margin-bottom: 50px;
+}
+
+
+.container {
+  width: 30rem;
+  height: 200px;
+  background-color: #368ABF;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 3rem;
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inputsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dataInputs {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.searchId {
+  margin-bottom: 10px;
+}
+
+.search{
+  background-color: #66CAF2;
+    border-color: transparent;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+input {
+margin: 10px;
+}
+
+button {
+margin-left: 10px;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+  width: 50%;
+  margin-top: 10rem;
+  border-collapse: collapse;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  
+}
+
+th {
+  background-color: #3E3E40;
+  color: white;
+  
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .containerR {
+    width: 100%;
+  }
+  #map {
+    width: 100%;
+    float: none;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 900px) {
+  .containerR {
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 41rem;
+  }
+  .inputsDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

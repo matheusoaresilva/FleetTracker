@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <link rel="stylesheet" href="/rastreio/Css/interfaceMapStyle.css" />
+  <header class="header-rastreio">
+    <nav class="navbar navbar-expand-lg -tertiary" style="background-color: #63BBF2">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href=""><img class="logo" src="/img/car-placeholder.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/adicionaRastreio/AdicionaRastreio.html">Adicionar rastreio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/adicionaVeiculo/AdicionaVeiculo.html">Adicionar veiculo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+</head>
+
+<body>
+  <div class="containerR">
+    <form class="form-add">
+      <div class="container">
+        <p>Digite os dados para buscar rota do veiculo:</p>
+
+        <div class="inputsDiv">
+          <input class="searchId" id="id" name="id" type="text" placeholder="digite o ID" required="required" />
+
+          <div class="dataInputs">
+          <input class="input dataIni" id="dataIni" name="dataIni" type="date" placeholder="digite a data inicial"
+            required="required" class="campo campo-medio" />
+          <input class="input dataFinal" id="dataFinal" name="dataFinal" type="date" placeholder="digite a data final"
+            required="required" class="campo campo-medio" />
+          <button class="search btn" id="search">Search</button>
+        </div>
+        </div>
+      </div>
+    </form>
+
+
+    <div id="resultado"></div>
+    <div id="historicoRastreamento"></div>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/rastreio/Js/form.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
