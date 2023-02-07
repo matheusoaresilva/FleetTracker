@@ -17,17 +17,17 @@ A edição de veículos pode ser realizada diretamente pela interface do usuári
 ### Exclusão de veículos
 A exclusão de veículos também pode ser feita através da interface do usuário, bastando informar o ID do veículo a ser excluído.
 
-![Tela de cadastro de veiculos](https://github.com/matheusoaresilva/Rastreamento-veiculos/blob/main/img/img-car/adcVeiculo.PNG)
+![Tela de cadastro de veiculos](https://github.com/matheusoaresilva/FleetTracker/blob/main/Front-end/img/img-car/adcVeiculo.PNG)
 
 ### Adição de rastreamentos
 A funcionalidade de adição de rastreamentos permite passar o ID do veículo, longitude e latitude de cada ponto percorrido e uma parada, juntamente com a data e hora em que o veículo parou em cada coordenada.
 
-![Tela de cadastro de rastreamento](https://github.com/matheusoaresilva/Rastreamento-veiculos/blob/main/img/img-car/adcRastreio.PNG)
+![Tela de cadastro de rastreamento](https://github.com/matheusoaresilva/FleetTracker/blob/main/Front-end/img/img-car/adcRastreio.PNG)
 
 ### Consulta de histórico de rastreamentos
 Por meio da consulta de histórico de rastreamentos, é possível buscar o histórico de rastreamento de cada veículo cadastrado, informando o ID do carro e as datas inicial e final da rota percorrida. A partir dessas informações, é criado um trajeto no mapa, indicando a ordem das paradas, data, hora e coordenadas.
 
-![Tela de rastreamento](https://github.com/matheusoaresilva/Rastreamento-veiculos/blob/main/img/img-car/map.PNG)
+![Tela de rastreamento](https://github.com/matheusoaresilva/FleetTracker/blob/main/Front-end/img/img-car/map.PNG)
 
 ## Tecnologias Utilizadas
 - Java 17
