@@ -3,7 +3,7 @@ const tabelaVeiculos = document.getElementById("tabela-veiculos");
 
 
 // buscando GET conectando com banco
-fetch("http://127.0.0.1:8090/veiculostabela")
+fetch("http://127.0.0.1:8090/veiculo")
   .then(response => response.json())
   .then(veiculos => {
     veiculos.forEach(veiculo => {
