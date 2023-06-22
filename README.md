@@ -1,4 +1,4 @@
-# FleetTracker (Em desenvolvimento)
+# FleetTracker 
 
 ## Introdução
 Este projeto permite que sejam cadastrados, editados e excluídos dados de veículos, bem como adicionados e consultados seus respectivos rastreamentos.
